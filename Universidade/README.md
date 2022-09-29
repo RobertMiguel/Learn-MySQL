@@ -2,8 +2,16 @@
 # Modelagem do Banco de Dados
 Repositório para modelagem do banco de dados
 
+# Modelo Lógico
+
 <div align="center">
   <img src="/Universidade/Lógico_1.png"/>
+</div>
+
+# Modelo Conceitual
+
+<div>
+  <img src="/Universidade/Conceitual_1.png">
 </div>
 
 # Descrição das tabelas do modelo
