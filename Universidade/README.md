@@ -28,6 +28,17 @@ sobre as disciplinas, no banco de dados da Universidade.
     <p>carga_hor : Carga horária das disciplinas(aula).</p>
 </ul>
 
+<h2>Tabela <i> turma</i></h2>
+A tabela <i>aluno</i> descreve dentro no modelo relacional elaborado, onde e quais atributos iremos manter no banco
+sobre as turmas, no banco de dados da Universidade.
+<ul>
+  <p>cod_disc : Chave estrangeira responsavel por fazer referência a tabela disciplina references disciplina(cod_disc).</p>
+    <p>cod_turma : Chave primaria da tabela.</p>
+    <p>cod_professor : Chave estrangeira responsavel por fazer referência a tabela de professores references professores(cod_prof).</p>
+    <p>ano :Responsavel por armazenar a ano da turma.</p>
+    <p>horario :Responsavel por armazenar o horario da turma.</p>
+ </ul>
+
 <h2>Tabela <i> Professores</i></h2>
 A tabela <i>aluno</i> descreve dentro no modelo relacional elaborado, onde e quais atributos iremos manter no banco
 sobre dos professores, no banco de dados da Universidade.
