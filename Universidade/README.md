@@ -3,7 +3,7 @@
 Repositório para modelagem do banco de dados
 
 <div align="center">
-  <img src="Universidade/Lógico_1.png"/>
+  <img src="/Universidade/Lógico_1.png"/>
 </div>
 
 # Descrição das tabelas do modelo
