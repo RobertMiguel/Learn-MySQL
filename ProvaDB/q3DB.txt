@@ -1,0 +1,2 @@
+select email
+from tb_aluno where 2022 - ano_nasc >= 18

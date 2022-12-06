@@ -1,0 +1,2 @@
+select count(cod_aluno)
+from tb_aluno

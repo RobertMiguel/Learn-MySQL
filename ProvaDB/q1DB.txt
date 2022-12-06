@@ -1,0 +1,4 @@
+insert into tb_aluno(cod_aluno,nome_aluno,ano_nasc,email,sexo)
+values(4, 'Pedro César', NULL, null,'M');
+insert into tb_matricula(cod_curso, cod_aluno)
+values(4, 4)
