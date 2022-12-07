@@ -1,0 +1,2 @@
+select nome_curso from tb_curso
+order by nome_curso asc

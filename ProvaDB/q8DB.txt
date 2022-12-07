@@ -1,0 +1,4 @@
+select tb_aluno.nome_aluno, tb_curso.nome_curso
+from tb_aluno inner join tb_curso
+on tb_aluno.cod_aluno = tb_curso.cod_curso
+where nome_curso = 'Medicina' and sexo = 'F'
