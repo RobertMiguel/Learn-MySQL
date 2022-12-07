@@ -10,6 +10,13 @@ values(4, 'Pedro César', NULL, null,'M');
 insert into tb_matricula(cod_curso, cod_aluno)
 values(4, 4)
 ```
+```sql
+insert into tb_aluno(cod_aluno,nome_aluno,ano_nasc,email,sexo)
+values(4, 'Pedro César', NULL, null,'M');
+insert into tb_matricula(cod_curso, cod_aluno)
+values(4, 4)
+```
+
 ## Resultado esperado
 
 <img src="./q1DB.png">
@@ -89,3 +96,39 @@ from tb_aluno where sexo = 'F'
 ## Resultado esperado
 
 <img src="./q7DB.png">
+
+## 8ª Questão
+Faça um comando SQL que retorne o nome de todas as mulheres matriculadas
+no curso de Medicina.
+
+```sql
+select nome_aluno,sexo
+from tb_aluno where sexo = 'F'
+```
+## Resultado esperado
+
+<img src="./q8DB.png">
+
+## 9ª Questão
+
+
+```sql
+select nome_aluno,sexo
+from tb_aluno where sexo = 'F'
+```
+## Resultado esperado
+
+<img src="./q9DB.png">
+
+## 10ª Questão
+
+
+```sql
+select nome_aluno,sexo
+from tb_aluno where sexo = 'F'
+```
+## Resultado esperado
+
+<img src="./q10DB.png">
+
+
