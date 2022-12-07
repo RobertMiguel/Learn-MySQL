@@ -1,4 +1,4 @@
-# Resolução da Prova Prática Banco de Dados
+# Resolução da Prova Prática Banco de Dados - Parte Prática
 
 ## 1ª Questão
 Faça um comando SQL para matricular o aluno “Pedro César” no curso de
@@ -137,4 +137,14 @@ where sexo = 'M' and 2022 - ano_nasc >= 18
 
 ![image](https://user-images.githubusercontent.com/90520597/206245225-f17e94eb-0530-47ad-b01e-234554c65040.png)
 
+# Resolução da Prova Prática Banco de Dados - Parte Teórica
 
+## 1ª Questão - Defina: SQL.
+Resumidamente, é uma linguagem de programação para lidar com banco de dados relacional (baseado em tabelas). Foi criado para que vários desenvolvedores pudessem acessar e modificar dados de uma empresa. É o acrônimo para Structured Query Language, para acesso e manipulação de dados, principalmente para banco de dados relacionados.
+ 
+ ## 2° Questão - Faça um relacionamento cronológico sobre SQL.
+ O SQL desenvolvido no início dos anos 70 nos laboratórios da IBM, dentro do prjeto "System R", que tinha objetivo demostrar a viabilidade da implementação do modelo relacional proposto por E.F Codd, nome sequel, acrônimo para "Structured English Query Language".
+ <br/>
+A linguagem é um grande padrão de banco de dados, ela é mais usada por sua simplicidade e facilidade de uso. É uma linguagem declarativa em oposição a outras linguagens procedurais.
+<br/>
+O SQL tenha sido originalmente criado pela IBM, essa expansão de mercado levou a necessidade de ser criado e adaptado um padrão para a linguagem
