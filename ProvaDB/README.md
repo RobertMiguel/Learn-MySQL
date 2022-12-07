@@ -102,30 +102,32 @@ Faça um comando SQL que retorne o nome de todas as mulheres matriculadas
 no curso de Medicina.
 
 ```sql
-select nome_aluno,sexo
-from tb_aluno where sexo = 'F'
+select tb_aluno.nome_aluno, tb_curso.nome_curso
+from tb_aluno inner join tb_curso
+on tb_aluno.cod_aluno = tb_curso.cod_curso
+where nome_curso = 'Medicina' and sexo = 'F'
 ```
 ## Resultado esperado
 
 <img src="./q8DB.png">
 
 ## 9ª Questão
-
+Faça um comando SQL que retorne os nomes dos cursos ordenados por ordem
+alfabética.
 
 ```sql
-select nome_aluno,sexo
-from tb_aluno where sexo = 'F'
+select nome_curso from tb_curso
+order by nome_curso asc
 ```
 ## Resultado esperado
 
 <img src="./q9DB.png">
 
 ## 10ª Questão
-
+Crie o enunciado de uma consulta SQL que utilize “junção” (com resposta).
 
 ```sql
-select nome_aluno,sexo
-from tb_aluno where sexo = 'F'
+
 ```
 ## Resultado esperado
 
