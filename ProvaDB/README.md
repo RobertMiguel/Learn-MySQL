@@ -127,10 +127,14 @@ order by nome_curso asc
 Crie o enunciado de uma consulta SQL que utilize “junção” (com resposta).
 
 ```sql
-
+select tb_aluno.nome_aluno,ano_nasc,sexo, tb_curso.nome_curso
+from tb_aluno
+inner join tb_curso
+on tb_aluno.cod_aluno = tb_curso.cod_curso
+where sexo = 'M' and 2022 - ano_nasc >= 18
 ```
 ## Resultado esperado
 
-<img src="./q10DB.png">
+![image](https://user-images.githubusercontent.com/90520597/206245225-f17e94eb-0530-47ad-b01e-234554c65040.png)
 
 
