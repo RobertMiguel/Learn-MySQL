@@ -52,3 +52,40 @@ from tb_aluno
 ## Resultado esperado
 
 <img src="./q4DB.png">
+
+## 5ª Questão
+Escreva um comando SQL para listar o total de alunos matriculador em cada curso.
+
+```sql
+select tb_curso.nome_curso,
+cod_curso + cod_aluno as numero_alunos
+from tb_curso
+inner join tb_aluno
+on tb_aluno.cod_aluno = tb_curso.cod_curso
+```
+## Resultado esperado
+
+<img src="./q5DB.png">
+
+## 6ª Questão
+Desenvolva um comando SQL que retorne o nome de todos os alunos maiores que
+18 anos.
+
+```sql
+select nome_aluno
+from tb_aluno where 2022 - ano_nasc >= 18
+```
+## Resultado esperado
+
+<img src="./q6DB.png">
+
+## 7ª Questão
+Faça um comando SQL que retorne o nome de todas as mulheres.
+
+```sql
+select nome_aluno,sexo
+from tb_aluno where sexo = 'F'
+```
+## Resultado esperado
+
+<img src="./q7DB.png">
