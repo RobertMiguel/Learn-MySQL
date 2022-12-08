@@ -1,3 +1,61 @@
+# Criação das Tabelas
+
+## Tabela de Aluno
+```sql
+create table tb_aluno (
+cod_aluno int primary key,
+nome_aluno varchar(60) not null,
+ano_nasc int,
+email varchar(60),
+sexo varchar(1) not null
+)
+```
+
+## Tabela de Curso
+```sql
+create table tb_curso(
+cod_curso int primary key,
+nome_curso varchar(60) not null
+)
+```
+
+## Tabela de Matricula
+```sql
+create table tb_matricula(
+cod_curso int references tb_curso(cod_curso),
+cod_aluno int references tb_aluno(cod_aluno)
+)
+```
+
+# Inserção dos dados da Tabela
+
+## Inserção dos dados dos alunos
+```sql
+insert into tb_aluno(cod_aluno,nome_aluno,ano_nasc,email,sexo)
+values(1, 'Josiel Jardim', '1974','josiel@provaSQL.com.br','M');
+values(2, 'Ana Maria', '1980','ana@provaSQL.com.br','F');
+values(3, 'João Pedro', '1979','joao@provaSQL.com.br','M');
+```
+## Inserção dos dados do curso
+```sql
+insert into tb_curso(cod_curso, nome_curso)
+values(1, 'Medicina')
+values(2, 'Arquitetura')
+values(3, 'Filosofia')
+values(4, 'Informática')
+values(5, 'Jornalismo')
+
+```
+## Inserção dos dados das matrículas
+```sql
+insert into tb_matricula(cod_curso, cod_aluno)
+values(1, 1)
+values(1, 2)
+values(2, 3)
+values(5, 3)
+```
+
+
 # Resolução da Prova Prática Banco de Dados - Parte Prática
 
 ## 1ª Questão
