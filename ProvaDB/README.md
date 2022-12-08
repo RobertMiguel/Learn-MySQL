@@ -183,6 +183,8 @@ order by nome_curso asc
 
 ## 10ª Questão
 Crie o enunciado de uma consulta SQL que utilize “junção” (com resposta).
+### Enunciado
+Faça um comando SQL que consulte o nome, nascimento e o curso do aluno. Depois junte as colunas e faça com que o resultado imprima masculinos e maiores que 18
 
 ```sql
 select tb_aluno.nome_aluno,ano_nasc,sexo, tb_curso.nome_curso
